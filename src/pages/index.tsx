@@ -31,9 +31,6 @@ const Home: NextPage = () => {
   if (isTasksError) {
     return <h1>error</h1>;
   }
-  if (tasks === undefined) {
-    return <p>no tasks</p>;
-  }
   return (
     <>
       <AppBar position="relative">

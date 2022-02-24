@@ -49,9 +49,10 @@ export const useTasks = () => {
   };
 
   return {
-    tasks: data?.map((dto: TaskDTO) =>
-      Task.of(dto.id, dto.name, dto.due, dto.status)
-    ),
+    tasks:
+      data?.map((dto: TaskDTO) =>
+        Task.of(dto.id, dto.name, dto.due, dto.status)
+      ) ?? [],
     isTasksLoading: !error && !data,
     isTasksError: error,
     createTask: createTask,
