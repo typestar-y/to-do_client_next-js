@@ -43,7 +43,7 @@ const Home: NextPage = () => {
       </AppBar>
       <main>
         <Container
-          maxWidth="xs"
+          maxWidth="lg"
           sx={{
             pt: 5,
           }}
