@@ -16,8 +16,8 @@ const TaskSnackbarCreate: FC<Props> = ({ isOpen, setIsOpen }: Props) => {
     <Snackbar
       open={isOpen}
       onClose={handleClose}
-      autoHideDuration={6000}
-      message="タスクを作成しました"
+      autoHideDuration={1500}
+      message="タスクを作成しています..."
     />
   );
 };
