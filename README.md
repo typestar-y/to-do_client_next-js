@@ -10,7 +10,7 @@ Next.js による TODO リストのサンプルフロントエンドアプリケ
 
 ## 1-1. タスク作成・一覧表示
 
-![11-12_create_search](https://user-images.githubusercontent.com/51914044/154844252-76446b24-2ef3-46eb-aace-b434fa3e9ce3.gif)
+![11-12_create_search](https://user-images.githubusercontent.com/51914044/155824104-e4c3f4f4-eb57-4300-8101-c68dcc1e4b98.gif)
 
 ### 概要
 
@@ -26,7 +26,7 @@ Next.js による TODO リストのサンプルフロントエンドアプリケ
 
 ## 1-2. タスクの更新
 
-![13_update](https://user-images.githubusercontent.com/51914044/154844262-db383a84-1687-4719-8ae9-2ae12e996449.gif)
+![13_update](https://user-images.githubusercontent.com/51914044/155824110-b6dd5db9-b64e-4636-a381-225e246385c1.gif)
 
 ### 概要
 
@@ -41,7 +41,7 @@ Next.js による TODO リストのサンプルフロントエンドアプリケ
 
 ## 1-3. タスクの削除
 
-![14_delete](https://user-images.githubusercontent.com/51914044/154844264-fe01a626-9815-4eed-9600-603a19315cb7.gif)
+![14_delete](https://user-images.githubusercontent.com/51914044/155824115-a0b14d7a-f64d-4354-bc21-b3ad9c2e0cf4.gif)
 
 ### 概要
 

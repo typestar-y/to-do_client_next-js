@@ -7,7 +7,7 @@ type Props = {
   setIsOpen: Dispatch<SetStateAction<boolean>>;
 };
 
-const TaskSnackbarUpdate: FC<Props> = ({ isOpen, setIsOpen }: Props) => {
+const TaskSnackbarDelete: FC<Props> = ({ isOpen, setIsOpen }: Props) => {
   const handleClose = () => {
     setIsOpen(false);
   };
@@ -17,9 +17,9 @@ const TaskSnackbarUpdate: FC<Props> = ({ isOpen, setIsOpen }: Props) => {
       open={isOpen}
       onClose={handleClose}
       autoHideDuration={1500}
-      message="更新しています..."
+      message="削除しています..."
     />
   );
 };
 
-export default TaskSnackbarUpdate;
+export default TaskSnackbarDelete;

@@ -45,7 +45,7 @@ const TaskCardNew: FC = () => {
 
   return (
     <>
-      <Card>
+      <Card variant="outlined">
         <form onSubmit={handleSubmit(handleCreatingTask)}>
           <CardHeader
             title={

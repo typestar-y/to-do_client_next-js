@@ -25,6 +25,10 @@ export class Status {
   }
 
   toString(): string {
-    return this.name;
+    return this._name;
+  }
+
+  equals(target: Status): boolean {
+    return this.toString() === target.toString();
   }
 }
